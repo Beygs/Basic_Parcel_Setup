@@ -1,0 +1,15 @@
+$color-red: rgb(255, 20, 20);
+
+@font-face {
+  font-family: 'Shrimp';
+  src: url("../assets/fonts/SHRIMP.ttf");
+}
+
+body {
+  background-image: url("../assets/images/cat.jpg");
+}
+
+p {
+  color: $color-red;
+  font-family: "Shrimp";
+}
